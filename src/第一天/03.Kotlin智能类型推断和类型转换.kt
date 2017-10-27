@@ -1,7 +1,12 @@
 package 第一天基础
 
+/**
+ * 智能类型转换
+ */
 fun main(args: Array<String>) {
+
     /*---------------------------- 智能类型推断 ----------------------------*/
+
 //    int a = 10;
     var a = 10//根据赋值10 自动识别a是Int类型
     a = 20
@@ -10,7 +15,10 @@ fun main(args: Array<String>) {
     //kotlin变量类型安全
 
     /*---------------------------- 类型转换 ----------------------------*/
-    var b:Int =  10
-    var c:Long = 20
+
+    var b: Int = 10
+    var c: Long = 20
+
     b = c.toInt()
+    c = b.toLong()
 }
