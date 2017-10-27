@@ -1,5 +1,6 @@
 # KotlinLesson
 Kotlin 课程学习
+        本课程属于kotlin入门基础。（属于来源与某大型IT机构，BH）；
 
 课程结构目录
 
