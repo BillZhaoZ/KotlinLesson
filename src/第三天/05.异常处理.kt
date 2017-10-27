@@ -14,6 +14,7 @@ fun main(args: Array<String>) {
         println("程序出现异常了 ${e.message}")
     }finally {
         //不管有没有异常 都会执行下面的代码
+        //关闭io  关闭cursor
         println("执行了finally里面的代码")
     }
 

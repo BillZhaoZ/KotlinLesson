@@ -8,7 +8,7 @@ fun main(args: Array<String>) {
 //string字符串
 //人 名字  年龄  地址
 class Person{//人的类型
-    var name:String = "张三"
+var name:String = "张三"
     var age = 30
     var place = "中国"
     override fun toString(): String {
