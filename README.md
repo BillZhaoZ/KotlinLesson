@@ -1,11 +1,12 @@
 # KotlinLesson
 
 Kotlin 课程学习
-        本课程属于kotlin入门基础。
-        关于kotlin的介绍，请参考：https://github.com/BillZhaoZ/KotlinStudy
+       
+       本课程属于kotlin入门基础。
+       关于kotlin的介绍，请参考：https://github.com/BillZhaoZ/KotlinStudy
 
 
-课程结构目录
+    课程结构目录
 
     第一天：
         1.Hello World
