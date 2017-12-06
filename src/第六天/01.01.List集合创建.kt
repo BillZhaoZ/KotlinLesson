@@ -2,8 +2,8 @@ package 第五天面向对象加强
 
 fun main(args: Array<String>) {
     //通过listof创建list集合(只读的集合)
-    val list1 = listOf("张三","李四","王五")
-    val list2 = listOf("张三","李四","王五")
+    val list1 = listOf("张三", "李四", "王五")
+    val list2 = listOf("张三", "李四", "王五")
     //可以访问元素
     println(list1[0])
     list1.get(0)
@@ -13,7 +13,7 @@ fun main(args: Array<String>) {
 //        list1[0] = "赵六"
 
     //可读可写可扩展list集合
-    val list3 = mutableListOf("张三","李四","王五",10)
+    val list3 = mutableListOf("张三", "李四", "王五", 10)
     //可以添加
     list3.add("赵六")
     //往指定的位置添加元素
@@ -24,14 +24,14 @@ fun main(args: Array<String>) {
     println(list3)
 
     //ArrayList
-    val list4 = arrayListOf("张三","李四","王五")
+    val list4 = arrayListOf("张三", "李四", "王五")
     //添加数据
     list4.add("赵六")
     list4.remove("张三")
     println(list4)
 
     //通过构造方法创建集合
-    val mulist = MutableList(10){
+    val mulist = MutableList(10) {
         "张三"
     }
     println(mulist)
